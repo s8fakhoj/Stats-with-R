@@ -46,7 +46,7 @@
 \parindent0pt
 
 \renewcommand{\thesection}{Question \arabic{section}}
-\renewcommand{\thesubsection}{Part \alph{subsection}.}
+\renewcommand{\thesubsection}{\alph{subsection})}
 \renewcommand{\thesubsubsection}{(\arabic{subsubsection})}
 
 \newcommand{\limN}[1]{\lim\limits_{n\to #1}}
@@ -99,5 +99,17 @@
 \section{}
 
 \section{}
-
+The paper: \url{https://arxiv.org/pdf/1906.01581v1.pdf} \\
+Using Chapter 5.4: \\\\
+a) The research is about the algorithm detecting two SNP (Single Nucleotide Polymorphism) patterns that are related to AMD (Age-Related Macular Degeneration) in a dataset. \\\\
+b) The dataset consists of 103611 SNPs of 96 patients and 50 control individuals. \\\\
+c) The sample, or in other words the result of the algorithm, was not random because the algorithm does not use randomness when selecting patterns. \\\\
+d) It is unlikely that the AMD dataset that was published in Science is biased. The truthfulness of the algorithm results depends on the implementation that was not published. \\\\
+e) It was a corpus study: the researches were not in control of all the variables of the dataset. \\\\
+f) The chosen pattern. \\\\
+g) Hispanic/non-Hispanic origin, smoker/non-smoker. The other independent variables could be extracted from the dataset, but the dataset itself is behind the paywall of Science Online. \\\\
+h) All given variables are discrete. \\\\
+i) For given independent variables: nominal scale because they cannot be ordered and have no average. For the dependent variable: ordinal scale because the patterns can be sorted (ordered) based on the genes used, but they cannot be averaged. \\\\
+j) The authors defined Statistically Significant Discriminative Pattern (SSDP) using odds ratio and the lower confidence interval of odds ratio support (OR, LCI\_ORS), which are described on the page 3 of the paper. \\\\
+k) The authors used SSDP because they aimed to satisfy both discriminative scores and confidence intervals thresholds. Apparently, previous ways of measuring statistical significance were not fit for this particular task.
 \end{document}
